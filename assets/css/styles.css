@@ -1,0 +1,205 @@
+/*#inicio div{
+    border: 1px solid black;
+}*/
+
+/*header*/
+.bg-light{
+    background-color: #fff !important;
+}
+#navbarNav{
+    height: 140px;
+}
+.navbar{
+    max-width: 970px;
+
+}
+    
+.navbar-nav li{
+        width: 128px;
+        height: 35px;
+        text-align: center;
+        transition: color 0.4s ease 0s;
+        text-transform: uppercase;
+        font: normal normal bold 14px/1.2em 'Open Sans',sans-serif;
+        color: #3CB2B2;
+        
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #3CB2B2;
+}
+.navbar-nav li a{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+.logo_sm{
+    display: none;
+}
+.logo_lg{
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 327px;
+    height: 100px;
+    background-size: 60px;
+    background-position: 0px 27px;
+}
+#navbarNav .logo_lg a{
+    font-family: 'Enriqueta', serif;
+    color: #606060;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px; 
+    float: right;
+    margin-right: 0px;
+    position: relative;
+    top: 12px;
+    color: #606060;
+}
+
+/*screen*/
+.central-screen{
+    background-color: #EAE5E5;
+}
+.screen{
+    max-width: 970px;
+}
+
+.screens {
+    min-height: 500px;
+}
+.quienes, .servicios, .clientes, .contacto{
+    display: none;
+}
+
+/*temp*/
+.contacto{
+    border: 1px solid black;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    border: solid 1px red;
+   }
+
+/*inicio*/   
+.inicio{
+    position: relative;
+    top: 30px;
+}
+
+#carousel-main{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-ases{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border: 2px white solid;
+    margin-bottom: 5px;
+    height: 55px;
+    font: normal normal normal 23px/1.2em 'Open Sans',sans-serif;
+    color: #FFFFFF;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.btn-planeacion {
+    background: rgb(242,173,46);
+    background: linear-gradient(0deg, rgba(242,173,46,0.8267507686668417) 52%, rgba(240,240,245,1) 97%, rgba(237,238,238,1) 100%);
+}
+.btn-estrategia{
+    background: rgb(98,170,35);
+    background: linear-gradient(0deg, rgba(98,170,35,0.98) 52%, rgba(240,240,245,1) 97%, rgba(237,238,238,1) 100%); 
+}
+.btn-resultados{
+    background: rgb(60,178,178);
+background: linear-gradient(0deg, rgba(60,178,178,0.98) 52%, rgba(240,240,245,1) 97%, rgba(237,238,238,1) 100%); 
+}
+.btn-ases:hover{
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,0.98) 59%, rgba(237,238,238,1) 95%, rgba(240,240,245,1) 98%);
+}
+.btn-ases-text{
+    width: 60%;
+    text-transform: uppercase;
+}
+.main-text{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border: 2px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    padding: 27px;
+    background: rgb(60,178,178);
+    color: white;
+    font: normal normal bold 16px/1.2em 'Open Sans',sans-serif;
+}
+
+/*quienes*/
+.main-card{
+    background: none;
+    border: none;
+}
+.pr-body-card{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border: 2px white solid;
+    margin: 10px;
+}
+.left-card{
+    margin-right: 30px;
+}
+.right-card{
+    margin-left: 30px !important;
+}
+.pr-body-card .card-body {
+    background: rgb(60,178,178);
+    font: normal normal normal 25px 'Open Sans',sans-serif;         
+    color: white;
+    padding: 25px;  
+     }
+
+#servicios .card img{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border: 2px white solid;
+}
+
+#clientes .card{
+    background: none;
+    border: none;
+    padding-right: 15px;
+}
+
+/*footer*/
+.footer-dark{
+    background-color: black;
+    height: 137px;
+    padding-top: 40px;
+}
+.footer-bs{
+     max-width: 950px;
+     color: white;
+}
+.footer-bs h2{ 
+    font: normal normal bold 14px 'Open Sans',sans-serif;
+}
+
+.footer-bs p{
+    font: normal normal normal 12px/1.2em 'Open Sans',sans-serif;
+    line-height: 0.2em;
+}
+/*media queries*/
+@media (max-width: 600px) {
+    /*header*/
+    .logo_sm{
+        display: block;
+    }
+    .logo_lg{
+        display: none;
+    }
+    /*screen*/
+
+/*footer*/
+
+}
